@@ -1,0 +1,17 @@
+package com.subinexperion.com;
+
+import java.util.Scanner;
+
+public class Program16 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("enter the charaters");
+		Scanner scanner=new Scanner(System.in);
+		char a=scanner.next().charAt(a);
+		System.out.println(a);
+		
+
+	}
+
+}

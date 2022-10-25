@@ -1,0 +1,31 @@
+package com.experion.entity;
+
+public class Fabric extends Product {
+	private String size;
+	private String colour;
+	public Fabric(String productName, String size, String colour) {
+		super(productName);
+		this.size = size;
+		this.colour = colour;
+	}
+	public String getSize() {
+		return size;
+	}
+	public void setSize(String size) {
+		this.size = size;
+	}
+	public String getColour() {
+		return colour;
+	}
+	public void setColour(String colour) {
+		this.colour = colour;
+	}
+	@Override
+	public void productExchange() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

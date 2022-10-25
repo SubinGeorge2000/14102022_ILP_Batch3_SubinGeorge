@@ -1,0 +1,40 @@
+package com.subinexperion.com;
+
+import java.util.Scanner;
+
+public class Program12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n,j,temp=0;
+		Scanner sc=new Scanner(System.in);  
+		System.out.print("Enter the number of elements you want to store: ");   
+		n=sc.nextInt();  
+		int[] arr = new int[10]; 
+		System.out.println("Enter the elements of the array: ");  
+		for(int i=0; i<n; i++)  
+		{  
+		arr[i]=sc.nextInt();  
+		}    
+		for (int i = 0; i < arr.length; i++) {     
+            for (int j1 = i+1; j1 < arr.length; j1++) {     
+               if(arr[i] > arr[j1]) {    
+                   temp = arr[i];    
+                   arr[i] = arr[j1];    
+                   arr[j1] = temp;    
+               }     
+            }     
+        }    
+          
+        System.out.println();    
+            
+        //Displaying elements of array after sorting    
+        System.out.println("Elements of array sorted in ascending order: ");    
+        for (int i = 0; i < arr.length; i++) {     
+            System.out.print(arr[i] + " ");    
+        }    
+		
+
+	}
+
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\ILPExperion\ShareedDocumentbySunnesh\CCJP12_Day12_DateTime"/>
+			<item value="D:\ILPExperion\ShareedDocumentbySunnesh\17102022"/>
+			<item value="D:\ILPExperion\ShareedDocumentbySunnesh\15102022\DemonstrationProgram14102022\14102022_ILP_BasicPrograming_Suneesh"/>
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="C:\Users\subin.george\Downloads\DemonstrationProgram14102022.zip"/>
+		</list>
+	</section>
+</section>

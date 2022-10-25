@@ -1,0 +1,22 @@
+ package com.subinexperion.com;
+
+import java.sql.Date;
+import java.text.SimpleDateFormat;
+import java.util.Scanner;
+
+public class Program19 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String sc,scc;
+		Scanner scanner =new Scanner();
+		System.out.println("enter the first Date");
+		sc=scanner.nextLine();
+		System.out.println("enter the Second Date");
+		scc=scanner.nextLine();
+		Date date1=new SimpleDateFormat("dd/MM/yyyy").parse(sc);  
+		Date date2=new SimpleDateFormat("dd/MM/yyyy").parse(scc);  
+
+	}
+
+}

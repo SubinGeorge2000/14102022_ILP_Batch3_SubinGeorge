@@ -1,0 +1,38 @@
+package com.experion.entity;
+
+import com.experion.service.ProductRepair;
+import com.experion.service.WarrantyReplacement;
+
+public class Electronic extends Product implements ProductRepair, WarrantyReplacement{
+	private String company;
+
+	
+
+	public Electronic(String productName, int serialNoOriginal, String company) {
+		super(productName, serialNoOriginal);
+		this.company = company;
+	}
+
+	
+
+	public String getCompany() {
+		return company;
+	}
+
+
+
+	public void setCompany(String company) {
+		this.company = company;
+	}
+
+
+
+	@Override
+	public void productExchange() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

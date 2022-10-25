@@ -1,0 +1,32 @@
+package com.subinexperion.com;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+public class Program20 {
+
+	public static void main(String[] args) throws ParseException {
+		// TODO Auto-generated method stub
+		String sc,scc,scc1;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("enter the validity Date");
+		sc=scanner.nextLine();
+		System.out.println("enter the Expriry Date");
+		scc=scanner.nextLine();
+		Date date1=(Date) new SimpleDateFormat("dd/MM/yyyy").parse(sc);  
+		Date date2=(Date) new SimpleDateFormat("dd/MM/yyyy").parse(scc);  
+		System.out.println("enter the Purchase Date");
+		scc1=scanner.nextLine();
+		Date date3=(Date) new SimpleDateFormat("dd/MM/yyyy").parse(scc1);  
+		if(date3.after(date1)) {
+			System.out.println("Cannot buy");
+		}
+		else {
+			System.out.println("Purchased");
+		}
+
+	}
+
+}

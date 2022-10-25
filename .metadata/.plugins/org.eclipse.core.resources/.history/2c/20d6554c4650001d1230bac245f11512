@@ -1,0 +1,60 @@
+package com.experion.service;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Scanner;
+
+import com.experion.entity.Fabric;
+import com.experion.entity.Product;
+
+public class Service {
+
+	
+	public static Product displayProduct() {
+		// TODO Auto-generated method stub
+		System.out.println("This are the products");
+		return null;
+		
+		
+	}
+
+	public static void displayProductDetails(ArrayList<Product> productList) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void customerProduct(int customerChoice, ArrayList<Product> productList) {
+		// TODO Auto-generated method stub
+		
+	}
+	public static Product inputProductFabric() {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter Product Name : ");
+		String productName = scanner.nextLine();
+		System.out.println("Enter Product size : ");
+		String size = scanner.nextLine();
+		System.out.println("Enter Product Code : ");
+		String colour = scanner.nextLine();
+		Fabric fabic = new Fabric(productName, size);
+		fabic.setSerialNo(fabic.getSerialNo() + 1);
+		fabic.setSerialNoOriginal(fabic.getSerialNo());
+		return fabic;
+	}
+
+	public static Product inputProductElectronics() {
+		// TODO Auto-generated method stub
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter Product Name : ");
+		String productName = scanner.nextLine();
+		System.out.println("Enter Product company : ");
+		String company = scanner.nextLine();
+		Product product = new Product(productName, company);
+		product.setSerialNo(product.getSerialNo() + 1);
+		product.setSerialNoOriginal(product.getSerialNo());
+		return product;
+	}
+	
+
+}

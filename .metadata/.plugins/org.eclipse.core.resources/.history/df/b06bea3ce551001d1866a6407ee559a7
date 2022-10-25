@@ -1,0 +1,26 @@
+package com.subinexperion.com;
+
+import java.util.Scanner;
+
+public class Series3 {
+
+	public static void main(String[] args) {
+		int firstNumber;
+		int sum = 0;
+		int number=1;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the n");
+		firstNumber = scanner.nextInt();
+		System.out.println("sum of the Series : ");
+		for(int i =1;i<=firstNumber;i++) {
+			if(i%2!=0) {
+				sum=sum+(2*i-1);
+				
+			}
+		}
+		System.out.println(sum);
+
+		
+	}
+
+}

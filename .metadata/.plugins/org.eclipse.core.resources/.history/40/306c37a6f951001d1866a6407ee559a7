@@ -1,0 +1,21 @@
+package com.subinexperion.com;
+
+import java.util.Scanner;
+
+public class Series4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		  System.out.print("Enter the number of terms: ");
+		  int n = sc.nextInt();
+		  int i = 1, c, f = 1,sum=0,sum1=0;
+		  for(i=1;i<n;i++) {
+			  sum=sum+find(n);
+		  }
+		  System.out.println(n);
+	}
+	public static int find(int n) {
+		return (int)Math.pow(n, 3);
+	}
+}
