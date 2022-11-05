@@ -1,9 +1,0 @@
-package com.experion.entity;
-
-public abstract class Product {
-	String productName;
-	private static int serialNo = 0;
-	private int serialNoOriginal;
-
-	
-}
